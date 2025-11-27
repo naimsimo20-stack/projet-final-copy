@@ -157,7 +157,9 @@ export default function Footer() {
                 </button>
 
                 <button
-                  onClick={handleEmailClick}
+                  onClick={() =>
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=contact@prestigia-agency.com", "_blank")
+              }
                   className="w-full flex gap-3 items-center p-3 rounded-lg hover:bg-accent/5 transition-colors group"
                 >
                   <Mail className="w-5 h-5 text-accent flex-shrink-0 group-hover:scale-110 transition-transform" />
