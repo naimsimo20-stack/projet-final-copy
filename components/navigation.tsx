@@ -27,11 +27,11 @@ export default function Navigation() {
   }
 
   const navItems = [
-    { label: "Accueil", href: "#home" },
-    { label: "Services", href: "#services" },
-    { label: "Fondateurs", href: "#team" },
-    { label: "Partenaires", href: "#partners" },
-    { label: "Contact", href: "#contact" },
+    { label: "Accueil", href: "https://www.prestigia-agency.com/#home" },
+    { label: "Services", href: "https://www.prestigia-agency.com/#services" },
+    { label: "Fondateurs", href: "https://www.prestigia-agency.com/#team" },
+    { label: "Partenaires", href: "https://www.prestigia-agency.com/#partners" },
+    { label: "Contact", href: "https://www.prestigia-agency.com/#contact" },
     { label: "Blog", href: "/blog" },
   ]
 
