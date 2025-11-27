@@ -85,7 +85,9 @@ export default function Contact() {
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div
-            onClick={handleEmailClick}
+            onClick={() =>
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=contact@prestigia-agency.com", "_blank")
+              }
             className="bg-background border border-accent/10 rounded-xl p-6 text-center hover:border-accent/50 transition-all duration-300 hover:bg-background/80 cursor-pointer"
           >
             <Mail className="w-10 h-10 text-accent mx-auto mb-4" />
@@ -95,9 +97,7 @@ export default function Contact() {
           </div>
 
           <div
-            onClick={() =>
-                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=contact@prestigia-agency.com", "_blank")
-              }
+            onClick={handlePhoneClick}
             className="bg-background border border-accent/10 rounded-xl p-6 text-center hover:border-accent/50 transition-all duration-300 hover:bg-background/80 cursor-pointer"
           >
             <Phone className="w-10 h-10 text-accent mx-auto mb-4" />
