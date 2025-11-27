@@ -107,7 +107,7 @@ export default function Contact() {
           </div>
 
           <div
-            onClick={handleLocationClick}
+           href="https://wa.me/212652768993"
             className="bg-background border border-accent/10 rounded-xl p-6 text-center hover:border-accent/50 transition-all duration-300 hover:bg-background/80 cursor-pointer"
           >
             <MapPin className="w-10 h-10 text-accent mx-auto mb-4" />
