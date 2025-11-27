@@ -53,8 +53,8 @@ export const metadata: Metadata = {
     images: ["/og-image.png"],
   },
   icons: {
-    icon: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/images/prestigia-logo.png",
+    apple: "/images/prestigia-logo.png",
   },
   alternates: {
     canonical: "https://prestigia-agency.com",
