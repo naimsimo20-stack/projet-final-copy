@@ -64,7 +64,7 @@ export default function Contact() {
   }
 
   const handlePhoneClick = () => {
-    window.location.href = "tel:+212652768993"
+    window.location.href = "https://wa.me/212652768993?text=Bonjour%20Je%20veux%20plus%20d'informations"
   }
 
   const handleLocationClick = () => {
@@ -107,7 +107,7 @@ export default function Contact() {
           </div>
 
           <div
-           href="https://wa.me/212652768993"
+          onClick={handleLocationClick}
             className="bg-background border border-accent/10 rounded-xl p-6 text-center hover:border-accent/50 transition-all duration-300 hover:bg-background/80 cursor-pointer"
           >
             <MapPin className="w-10 h-10 text-accent mx-auto mb-4" />
