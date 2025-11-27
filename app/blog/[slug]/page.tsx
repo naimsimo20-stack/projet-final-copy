@@ -348,7 +348,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
               Contactez-nous pour une consultation gratuite et découvrez comment nous pouvons vous aider.
             </p>
             <Link
-              href="/#contact"
+              href={`https://wa.me/212${quote.phone?.replace(/^0/, "") || ""}?text=Bonjour%20${quote.name},%20concernant%20votre%20demande%20de%20devis...`}
               className="inline-block bg-accent text-background px-6 py-3 rounded-full hover:bg-accent/90 transition-all font-semibold"
             >
               Demander une consultation
