@@ -95,7 +95,9 @@ export default function Contact() {
           </div>
 
           <div
-            onClick={handlePhoneClick}
+            onClick={() =>
+                window.open("https://mail.google.com/mail/?view=cm&fs=1&to=contact@prestigia-agency.com", "_blank")
+              }
             className="bg-background border border-accent/10 rounded-xl p-6 text-center hover:border-accent/50 transition-all duration-300 hover:bg-background/80 cursor-pointer"
           >
             <Phone className="w-10 h-10 text-accent mx-auto mb-4" />
