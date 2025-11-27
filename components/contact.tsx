@@ -175,10 +175,6 @@ export default function Contact() {
             </button>
           </form>
         </div>
-
-        <div className="mt-12 text-center border-t border-border pt-8">
-          <p className="text-muted-foreground">© 2025 Prestigia Agency. Tous droits réservés.</p>
-        </div>
       </div>
     </section>
   )
